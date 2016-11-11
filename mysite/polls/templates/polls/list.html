@@ -1,0 +1,7 @@
+<h1>list1</h1>
+{% for person in persons %}
+<p>{{ person.name }}</p>
+
+{% endfor %}
+
+<a href="{% url 'add' %}"> Добавить </a>
